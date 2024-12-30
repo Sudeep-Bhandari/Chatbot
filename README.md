@@ -1,8 +1,6 @@
 # Python Chatbot
 
-A simple yet interactive chatbot developed using Python. This chatbot is designed to simulate conversation with users and respond based on predefined logic.
-
----
+A conversational chatbot built using Python. This project demonstrates how to create an interactive chatbot capable of responding to user queries.
 
 ## Features
 
@@ -13,21 +11,46 @@ A simple yet interactive chatbot developed using Python. This chatbot is designe
 
 ---
 
+## Demo
+
+Run the chatbot locally and interact with it in the terminal.
+
+
 ## Technologies Used
 
-- **Python**: Core programming language used to build the chatbot.
+- **Python**: Core programming language used to implement the chatbot.
+- **Libraries**:
+  - `nltk`: For natural language processing.
+  - `re`: For text pattern matching.
+  - `json` or `pickle`: For storing predefined responses (optional).
 
----
-## Usage
-1. Launch the chatbot by running the script.
-2. Type your questions or inputs in the console.
-3. The chatbot will respond based on its predefined logic.
+## Installation and Usage
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/Sudeep-Bhandari/Chatbot.git
    
-## Getting Started
-Prerequisites
-  * Python 3.x: Ensure you have Python installed on your system.
+2. Navigate to the project folder:
+   ```bash
+   cd Chatbot
+   
+3. Install dependencies:
 
-## Demo
-Run the chatbot locally and start a conversation!  
-```bash
-python chatbot.py
+   - Ensure you have Python installed.
+   - Install required libraries:
+     ```bash
+     pip install nltk
+     
+4. Run the chatbot:
+   ```bash
+   Chatbot.py
+   
+5. Interact with the chatbot:
+   - The chatbot will prompt you to type a message.
+   - Type your queries and get responses!
+     
+## How It Works
+1. User Input: The user types a message into the terminal.
+2. Processing: The chatbot processes the input using pattern matching or NLP techniques.
+3. Response: Based on the input, a relevant response is retrieved and displayed.
+
